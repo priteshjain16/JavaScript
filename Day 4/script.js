@@ -9,3 +9,21 @@ console.log(superheros);
 for(let inx of superheros){
     console.log(inx);
 }
+superheros.push("doctor strange");
+let deleted=superheros.pop();
+console.log(superheros);
+console.log(deleted);
+console.log(superheros.toString());
+console.log(marks.toString());
+let newarray=superheros.concat(marks);
+console.log(newarray);
+superheros.unshift("raju");
+console.log(superheros);
+superheros.shift();
+console.log(superheros);
+console.log(marks.slice(2,7));
+
+let num=[1,2,3,4,5,6,7,8];
+
+console.log(num.splice(2,2,10,11));
+console.log(num);
